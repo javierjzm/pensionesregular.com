@@ -1,0 +1,40 @@
+---
+---
+
+<div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Consentimiento de cookies" style="display:none;">
+  <div class="cookie-banner-inner">
+    <p>
+      Usamos cookies de terceros para publicidad (Google AdSense).
+      Puedes aceptar todas o solo las esenciales.
+      <a href="/politica-cookies/">Política de cookies</a>.
+    </p>
+    <div class="cookie-buttons">
+      <button id="cookie-accept" class="btn btn-primary" type="button">Aceptar todas</button>
+      <button id="cookie-reject" class="btn btn-secondary" type="button">Solo esenciales</button>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+  (function () {
+    var consent = localStorage.getItem('pensionesregular_consent');
+
+    if (consent === null) {
+      document.getElementById('cookie-banner').style.display = 'flex';
+    }
+
+    document.getElementById('cookie-accept').addEventListener('click', function () {
+      localStorage.setItem('pensionesregular_consent', 'true');
+      hideBanner();
+    });
+
+    document.getElementById('cookie-reject').addEventListener('click', function () {
+      localStorage.setItem('pensionesregular_consent', 'false');
+      hideBanner();
+    });
+
+    function hideBanner() {
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+  })();
+</script>

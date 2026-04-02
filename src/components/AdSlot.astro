@@ -1,0 +1,31 @@
+---
+interface Props {
+  slot: string;
+  size: 'banner' | 'rectangle' | 'sidebar' | 'anchor';
+  mobileOnly?: boolean;
+  desktopOnly?: boolean;
+}
+
+const { slot, size, mobileOnly = false, desktopOnly = false } = Astro.props;
+
+const sizeClasses: Record<string, string> = {
+  banner: 'ad-banner',
+  rectangle: 'ad-rectangle',
+  sidebar: 'ad-sidebar',
+  anchor: 'ad-anchor',
+};
+
+const classes = [
+  'ad-slot',
+  sizeClasses[size],
+  mobileOnly ? 'mobile-only' : '',
+  desktopOnly ? 'desktop-only' : '',
+].filter(Boolean).join(' ');
+---
+
+<div
+  class={classes}
+  data-ad-slot={slot}
+  aria-hidden="true"
+  role="none"
+></div>

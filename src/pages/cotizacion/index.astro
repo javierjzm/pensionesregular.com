@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('articulos'))
+  .filter((a) => a.data.category === 'cotizacion')
+  .sort((a, b) => b.data.datePublished.getTime() - a.data.datePublished.getTime());
+
+const formatDate = (date: Date) =>
+  date.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+---
+
+<Base
+  title="Cotización: bases, periodos y trámites con la Seguridad Social | Pensiones Regular"
+  description="Guías sobre cotización a la Seguridad Social: bases, periodos mínimos, lagunas de cotización, convenios especiales y vida laboral."
+>
+  <section class="hero">
+    <h1>Cotización a la Seguridad Social</h1>
+    <p>Entiende cómo funcionan las bases de cotización, los periodos computables y los trámites para asegurar tu futura pensión.</p>
+  </section>
+
+  <section class="container">
+    <div class="articles-grid">
+      {articles.map((a) => (
+        <a href={`/cotizacion/${a.slug}/`} class="article-card">
+          <h3>{a.data.title}</h3>
+          <p class="card-description">{a.data.description}</p>
+          <span class="card-date">{formatDate(a.data.datePublished)}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

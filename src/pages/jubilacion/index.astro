@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('articulos'))
+  .filter((a) => a.data.category === 'jubilacion')
+  .sort((a, b) => b.data.datePublished.getTime() - a.data.datePublished.getTime());
+
+const formatDate = (date: Date) =>
+  date.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+---
+
+<Base
+  title="Jubilación: guías sobre pensiones de jubilación en España | Pensiones Regular"
+  description="Todo sobre la pensión de jubilación en España: requisitos, edad, cálculo de la base reguladora, jubilación anticipada y más."
+>
+  <section class="hero">
+    <h1>Pensión de jubilación en España</h1>
+    <p>Guías prácticas sobre requisitos, cálculo, tipos de jubilación y trámites ante la Seguridad Social.</p>
+  </section>
+
+  <section class="container">
+    <div class="articles-grid">
+      {articles.map((a) => (
+        <a href={`/jubilacion/${a.slug}/`} class="article-card">
+          <h3>{a.data.title}</h3>
+          <p class="card-description">{a.data.description}</p>
+          <span class="card-date">{formatDate(a.data.datePublished)}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

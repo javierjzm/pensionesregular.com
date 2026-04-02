@@ -1,0 +1,150 @@
+---
+import CookieBanner from '../components/CookieBanner.astro';
+import { ADSENSE_CLIENT } from '../config/site';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  ogImage?: string;
+  noindex?: boolean;
+}
+
+const SITE_ORIGIN = 'https://pensionesregular.com';
+
+function normalizeCanonical(href: string): string {
+  try {
+    const u = new URL(href);
+    let path = u.pathname;
+    if (path !== '/' && !path.endsWith('/')) path += '/';
+    return `${SITE_ORIGIN}${path}`;
+  } catch {
+    return href;
+  }
+}
+
+const {
+  title,
+  description,
+  canonical: canonicalProp,
+  ogImage = '/og-default.png',
+  noindex = false,
+} = Astro.props;
+
+const canonical = canonicalProp
+  ? normalizeCanonical(canonicalProp)
+  : normalizeCanonical(Astro.url.href);
+
+const siteName = 'Pensiones Regular';
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: siteName,
+  url: SITE_ORIGIN,
+  description: 'Guías claras y actualizadas sobre pensiones, jubilación, cotización y prestaciones de la Seguridad Social en España.',
+};
+
+const orgSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: siteName,
+  url: SITE_ORIGIN,
+  logo: {
+    '@type': 'ImageObject',
+    url: `${SITE_ORIGIN}/favicon.svg`,
+    width: 512,
+    height: 512,
+  },
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: 'tablecheckio@gmail.com',
+    contactType: 'customer service',
+    availableLanguage: 'Spanish',
+  },
+};
+---
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  {ADSENSE_CLIENT ? (
+    <script
+      async
+      src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+      crossorigin="anonymous"
+    />
+  ) : null}
+
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="canonical" href={canonical} />
+  <link rel="alternate" type="application/rss+xml" title="Pensiones Regular — RSS" href={`${SITE_ORIGIN}/rss.xml`} />
+  {noindex
+    ? <meta name="robots" content="noindex, nofollow" />
+    : <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  }
+
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:site_name" content={siteName} />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+    media="print"
+    onload="this.media='all'"
+  />
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  </noscript>
+
+  <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="site-logo" aria-label="Pensiones Regular — Ir al inicio">pensiones<strong>regular</strong></a>
+      <nav class="main-nav">
+        <a href="/jubilacion/">Jubilación</a>
+        <a href="/cotizacion/">Cotización</a>
+        <a href="/complementos/">Complementos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <slot />
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="/sobre-nosotros/">Sobre nosotros</a>
+      <a href="/politica-privacidad/">Privacidad</a>
+      <a href="/aviso-legal/">Aviso legal</a>
+      <a href="/politica-cookies/">Cookies</a>
+      <a href="/contacto/">Contacto</a>
+    </div>
+    <p>&copy; {new Date().getFullYear()} pensionesregular.com. Todos los derechos reservados.</p>
+    <p class="footer-disclaimer">Contenido informativo. No constituye asesoramiento legal, fiscal ni financiero personalizado.</p>
+  </footer>
+
+  <CookieBanner />
+</body>
+</html>

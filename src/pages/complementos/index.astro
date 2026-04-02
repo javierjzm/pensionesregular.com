@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('articulos'))
+  .filter((a) => a.data.category === 'complementos')
+  .sort((a, b) => b.data.datePublished.getTime() - a.data.datePublished.getTime());
+
+const formatDate = (date: Date) =>
+  date.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+---
+
+<Base
+  title="Complementos y otras prestaciones de la Seguridad Social | Pensiones Regular"
+  description="Guías sobre viudedad, orfandad, incapacidad permanente, complemento a mínimos, brecha de género y pensiones no contributivas."
+>
+  <section class="hero">
+    <h1>Complementos y otras prestaciones</h1>
+    <p>Viudedad, orfandad, incapacidad, complementos a mínimos y prestaciones no contributivas de la Seguridad Social.</p>
+  </section>
+
+  <section class="container">
+    <div class="articles-grid">
+      {articles.map((a) => (
+        <a href={`/complementos/${a.slug}/`} class="article-card">
+          <h3>{a.data.title}</h3>
+          <p class="card-description">{a.data.description}</p>
+          <span class="card-date">{formatDate(a.data.datePublished)}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

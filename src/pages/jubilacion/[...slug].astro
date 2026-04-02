@@ -1,0 +1,32 @@
+---
+import Article from '../../layouts/Article.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articulos');
+  return articles
+    .filter((a) => a.data.category === 'jubilacion')
+    .map((article) => ({
+      params: { slug: article.slug },
+      props: { article },
+    }));
+}
+
+const { article } = Astro.props;
+const { Content, headings } = await article.render();
+---
+
+<Article
+  title={article.data.title}
+  description={article.data.description}
+  category={article.data.category}
+  datePublished={article.data.datePublished}
+  dateModified={article.data.dateModified}
+  author={article.data.author}
+  headings={headings}
+  relatedSlugs={article.data.relatedPosts}
+  schema={article.data.schema}
+  faqs={article.data.faqs ?? []}
+>
+  <Content />
+</Article>

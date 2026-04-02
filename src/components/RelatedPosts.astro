@@ -1,0 +1,25 @@
+---
+interface Post {
+  title: string;
+  description: string;
+  href: string;
+}
+
+interface Props {
+  posts: Post[];
+}
+
+const { posts } = Astro.props;
+---
+
+<section class="related-posts">
+  <h2>Artículos relacionados</h2>
+  <div class="related-posts-grid">
+    {posts.map((post) => (
+      <a href={post.href} class="related-card">
+        <h3>{post.title}</h3>
+        <p>{post.description}</p>
+      </a>
+    ))}
+  </div>
+</section>

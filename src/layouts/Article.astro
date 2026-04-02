@@ -1,0 +1,187 @@
+---
+import Base from './Base.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import AdSlot from '../components/AdSlot.astro';
+import RelatedPosts from '../components/RelatedPosts.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  title: string;
+  description: string;
+  category: string;
+  datePublished: Date;
+  dateModified?: Date;
+  author?: string;
+  headings: { depth: number; slug: string; text: string }[];
+  relatedSlugs?: string[];
+  schema?: 'article' | 'faq' | 'howto';
+  faqs?: { q: string; a: string }[];
+}
+
+const {
+  title,
+  description,
+  category,
+  datePublished,
+  dateModified,
+  author = 'Equipo editorial de Pensiones Regular',
+  headings,
+  relatedSlugs = [],
+  schema = 'article',
+  faqs = [],
+} = Astro.props;
+
+const categoryNames: Record<string, string> = {
+  jubilacion: 'Jubilación',
+  cotizacion: 'Cotización',
+  complementos: 'Complementos',
+};
+
+const categoryLabel = categoryNames[category] || category;
+const pubDate = datePublished.toISOString().split('T')[0];
+const modDate = dateModified ? dateModified.toISOString().split('T')[0] : null;
+
+const breadcrumbItems = [
+  { label: 'Inicio', href: '/' },
+  { label: categoryLabel, href: `/${category}/` },
+  { label: title, href: Astro.url.pathname },
+];
+
+const allArticles = await getCollection('articulos');
+const relatedPosts = relatedSlugs
+  .map((slug) => allArticles.find((a) => a.slug === slug))
+  .filter(Boolean)
+  .map((a) => ({
+    title: a!.data.title,
+    description: a!.data.description,
+    href: `/${a!.data.category}/${a!.slug}/`,
+  }));
+
+const SITE_ORIGIN = 'https://pensionesregular.com';
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description,
+  image: {
+    '@type': 'ImageObject',
+    url: `${SITE_ORIGIN}/og-default.png`,
+    width: 1200,
+    height: 630,
+  },
+  author: {
+    '@type': 'Person',
+    name: author,
+    url: `${SITE_ORIGIN}/sobre-nosotros/`,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Pensiones Regular',
+    url: SITE_ORIGIN,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${SITE_ORIGIN}/favicon.svg`,
+      width: 512,
+      height: 512,
+    },
+  },
+  datePublished: datePublished.toISOString(),
+  dateModified: (dateModified || datePublished).toISOString(),
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': Astro.url.href,
+  },
+  inLanguage: 'es-ES',
+};
+
+const faqSchema = faqs.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+} : null;
+
+const howtoHeadings = schema === 'howto'
+  ? headings.filter((h) => h.depth === 2).map((h, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: h.text,
+      url: `${Astro.url.href}#${h.slug}`,
+    }))
+  : [];
+
+const howtoSchema = schema === 'howto' && howtoHeadings.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: title,
+  description,
+  step: howtoHeadings,
+} : null;
+---
+
+<Base title={`${title} | Pensiones Regular`} description={description}>
+  <div class="article-layout">
+    <div class="article-main">
+      <Breadcrumb items={breadcrumbItems} />
+
+      <AdSlot slot="top-banner" size="banner" />
+
+      <h1 class="article-title">{title}</h1>
+
+      <div class="article-meta">
+        <span>Publicado: <time datetime={pubDate}>{pubDate}</time></span>
+        {modDate && modDate !== pubDate && (
+          <span>Actualizado: <time datetime={modDate}>{modDate}</time></span>
+        )}
+        <span>Por {author}</span>
+      </div>
+
+      <div class="disclaimer-box">
+        Este artículo tiene carácter informativo y no constituye asesoramiento legal, fiscal ni financiero personalizado. Consulta con un profesional antes de tomar decisiones que afecten a tu situación particular.
+      </div>
+
+      <div class="article-content">
+        <slot />
+      </div>
+
+      <div id="in-content-ad-anchor">
+        <AdSlot slot="in-content" size="rectangle" />
+      </div>
+
+      <AdSlot slot="below-content" size="rectangle" />
+
+      {relatedPosts.length > 0 && <RelatedPosts posts={relatedPosts} />}
+    </div>
+
+    <aside class="article-sidebar">
+      <div class="sidebar-sticky">
+        <TableOfContents headings={headings} />
+        <AdSlot slot="sidebar" size="sidebar" desktopOnly />
+      </div>
+    </aside>
+  </div>
+
+  <AdSlot slot="anchor-mobile" size="anchor" mobileOnly />
+
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+  {howtoSchema && <script type="application/ld+json" set:html={JSON.stringify(howtoSchema)} />}
+  <script is:inline>
+    (function () {
+      var anchor = document.getElementById('in-content-ad-anchor');
+      var content = document.querySelector('.article-content');
+      if (!anchor || !content) return;
+      var paragraphs = content.querySelectorAll('p');
+      if (paragraphs.length >= 2) {
+        paragraphs[1].insertAdjacentElement('afterend', anchor);
+      } else {
+        content.appendChild(anchor);
+      }
+    })();
+  </script>
+</Base>

@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="Contacto | Pensiones Regular"
+  description="Ponte en contacto con el equipo de Pensiones Regular. Envíanos tus dudas, sugerencias o comentarios."
+>
+  <div class="legal-page">
+    <h1>Contacto</h1>
+    <p>
+      ¿Tienes alguna pregunta, sugerencia o has detectado un error en nuestro contenido?
+      Escríbenos y te responderemos lo antes posible.
+    </p>
+
+    <div class="disclaimer-box">
+      No respondemos consultas de asesoramiento personalizado sobre pensiones. Si necesitas
+      asesoramiento profesional sobre tu situación concreta, te recomendamos contactar con
+      un graduado social o abogado laboralista.
+    </div>
+
+    <p>
+      También puedes escribirnos directamente a:
+      <a href="mailto:tablecheckio@gmail.com">tablecheckio@gmail.com</a>
+    </p>
+
+    <form class="contact-form" name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contacto" />
+      <p style="display:none;">
+        <label>No rellenar: <input name="bot-field" /></label>
+      </p>
+
+      <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required autocomplete="name" />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required autocomplete="email" />
+      </div>
+
+      <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+    </form>
+  </div>
+</Base>
