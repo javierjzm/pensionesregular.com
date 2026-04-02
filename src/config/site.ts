@@ -1,2 +1,2 @@
-/** ID de editor AdSense (ej. ca-pub-1234567890123456). Pégalo aquí. */
-export const ADSENSE_CLIENT = '';
+/** ID de cliente AdSense (mismo que en ads.txt, con prefijo ca-pub-). */
+export const ADSENSE_CLIENT = 'ca-pub-8300766188725023';

@@ -102,34 +102,25 @@ const orgSchema = {
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
-    rel="stylesheet"
-    media="print"
-    onload="this.media='all'"
-  />
-  <noscript>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
-  </noscript>
-
   <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
 </head>
 <body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
   <header class="site-header">
     <div class="header-inner">
       <a href="/" class="site-logo" aria-label="Pensiones Regular — Ir al inicio">pensiones<strong>regular</strong></a>
       <nav class="main-nav">
+        <a href="/">Inicio</a>
         <a href="/jubilacion/">Jubilación</a>
         <a href="/cotizacion/">Cotización</a>
         <a href="/complementos/">Complementos</a>
+        <a href="/contacto/">Contacto</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main id="main">
     <slot />
   </main>
 

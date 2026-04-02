@@ -6,73 +6,100 @@ import { getCollection } from 'astro:content';
 const allArticles = await getCollection('articulos');
 const recentArticles = allArticles
   .sort((a, b) => b.data.datePublished.getTime() - a.data.datePublished.getTime())
-  .slice(0, 6);
+  .slice(0, 12);
 
 const categories = [
   {
-    icon: '🏖️',
     name: 'Jubilación',
     slug: 'jubilacion',
-    desc: 'Requisitos, edad, cálculo de la pensión, jubilación anticipada y parcial. Todo lo que necesitas saber para planificar tu retiro.',
+    desc: 'Requisitos, edad, cálculo, jubilación anticipada y parcial.',
   },
   {
-    icon: '📊',
     name: 'Cotización',
     slug: 'cotizacion',
-    desc: 'Bases de cotización, periodos mínimos, lagunas, convenios especiales y cómo consultar tu vida laboral.',
+    desc: 'Bases, periodos mínimos, lagunas y vida laboral.',
   },
   {
-    icon: '🛡️',
-    name: 'Complementos y prestaciones',
+    name: 'Complementos',
     slug: 'complementos',
-    desc: 'Viudedad, orfandad, incapacidad permanente, complemento a mínimos, brecha de género y pensiones no contributivas.',
+    desc: 'Viudedad, orfandad, incapacidad, mínimos y no contributivas.',
   },
 ];
 
 const formatDate = (date: Date) =>
   date.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+
+const categoryLabel: Record<string, string> = {
+  jubilacion: 'Jubilación',
+  cotizacion: 'Cotización',
+  complementos: 'Complementos',
+};
 ---
 
 <Base
   title="Pensiones en España: jubilación, cotización y prestaciones | Pensiones Regular"
   description="Guías claras y actualizadas sobre pensiones de jubilación, cotización a la Seguridad Social y prestaciones complementarias en España."
 >
-  <section class="hero">
-    <h1>Guías sobre pensiones y Seguridad Social en España</h1>
-    <p>
-      Información práctica y actualizada sobre jubilación, cotización y prestaciones
-      para que entiendas tus derechos y planifiques tu futuro con claridad.
-    </p>
-  </section>
+  <div class="home-layout">
+    <div class="home-main">
+      <section class="hero">
+        <h1>Guías sobre pensiones y Seguridad Social</h1>
+        <p>
+          Información práctica sobre jubilación, cotización y prestaciones en España.
+        </p>
+      </section>
 
-  <AdSlot slot="after-hero" size="banner" />
+      <AdSlot slot="after-hero" size="banner" />
 
-  <section class="container">
-    <h2 class="section-title text-center">Explora por categoría</h2>
-    <p class="section-subtitle text-center">Encuentra la información que necesitas sobre tu pensión</p>
-    <div class="category-grid">
-      {categories.map((cat) => (
-        <a href={`/${cat.slug}/`} class="category-card">
-          <span class="icon">{cat.icon}</span>
-          <h3>{cat.name}</h3>
-          <p>{cat.desc}</p>
-        </a>
-      ))}
+      <section>
+        <h2 class="section-title">Temas destacados</h2>
+        <p class="section-subtitle">Accede a las guías por tema.</p>
+        <div class="category-grid">
+          {categories.map((cat) => (
+            <a href={`/${cat.slug}/`} class="category-card">
+              <h3>{cat.name}</h3>
+              <p>{cat.desc}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section class="mt-2">
+        <h2 class="section-title">Últimos artículos</h2>
+        <div class="articles-grid">
+          {recentArticles.map((a) => (
+            <a href={`/${a.data.category}/${a.slug}/`} class="article-card">
+              <p class="card-date">
+                {formatDate(a.data.datePublished)}
+                <span aria-hidden="true"> · </span>
+                {categoryLabel[a.data.category] ?? a.data.category}
+              </p>
+              <h3>{a.data.title}</h3>
+              <p class="card-description">{a.data.description}</p>
+              <span class="read-more">Leer más</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <AdSlot slot="home-bottom" size="rectangle" />
     </div>
-  </section>
 
-  <section class="container mt-2">
-    <h2 class="section-title">Últimos artículos</h2>
-    <div class="articles-grid">
-      {recentArticles.map((a) => (
-        <a href={`/${a.data.category}/${a.slug}/`} class="article-card">
-          <h3>{a.data.title}</h3>
-          <p class="card-description">{a.data.description}</p>
-          <span class="card-date">{formatDate(a.data.datePublished)}</span>
-        </a>
-      ))}
-    </div>
-  </section>
-
-  <AdSlot slot="home-bottom" size="rectangle" />
+    <aside class="home-sidebar" aria-label="Categorías">
+      <h2>Categorías</h2>
+      <ul>
+        {categories.map((cat) => (
+          <li>
+            <a href={`/${cat.slug}/`}>{cat.name}</a>
+          </li>
+        ))}
+      </ul>
+      <h2 class="home-sidebar-heading-spaced">Legal</h2>
+      <ul>
+        <li><a href="/politica-privacidad/">Privacidad</a></li>
+        <li><a href="/politica-cookies/">Cookies</a></li>
+        <li><a href="/aviso-legal/">Aviso legal</a></li>
+      </ul>
+    </aside>
+  </div>
 </Base>
