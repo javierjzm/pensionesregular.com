@@ -122,7 +122,7 @@ Los autónomos (RETA) tienen un sistema de cotización específico. Desde 2023 s
 
 A diferencia de los trabajadores por cuenta ajena, los autónomos eligen su base de cotización dentro del tramo que les corresponde según sus rendimientos netos. Pueden optar por una base superior a la mínima de su tramo si quieren generar más derechos para sus prestaciones futuras.
 
-Para un análisis detallado del sistema de cotización de autónomos, consulta nuestro artículo sobre [cotización de autónomos](/articulos/cotizacion-autonomos).
+Para un análisis detallado del sistema de cotización de autónomos, consulta nuestro artículo sobre [cotización de autónomos](/cotizacion/cotizacion-autonomos/).
 
 ## Dónde consultar tus bases de cotización
 

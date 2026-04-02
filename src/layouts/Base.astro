@@ -24,13 +24,21 @@ function normalizeCanonical(href: string): string {
   }
 }
 
+function absoluteAssetUrl(href: string): string {
+  if (/^https?:\/\//i.test(href)) return href;
+  const path = href.startsWith('/') ? href : `/${href}`;
+  return `${SITE_ORIGIN}${path}`;
+}
+
 const {
   title,
   description,
   canonical: canonicalProp,
-  ogImage = '/og-default.png',
+  ogImage: ogImageProp = '/favicon.svg',
   noindex = false,
 } = Astro.props;
+
+const ogImageUrl = absoluteAssetUrl(ogImageProp);
 
 const canonical = canonicalProp
   ? normalizeCanonical(canonicalProp)
@@ -95,12 +103,13 @@ const orgSchema = {
   <meta property="og:type" content="website" />
   <meta property="og:url" content={canonical} />
   <meta property="og:locale" content="es_ES" />
-  <meta property="og:image" content={ogImage} />
+  <meta property="og:image" content={ogImageUrl} />
   <meta property="og:site_name" content={siteName} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImageUrl} />
 
   <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />

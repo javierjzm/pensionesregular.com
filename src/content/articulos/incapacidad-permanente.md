@@ -53,7 +53,7 @@ Se reconoce cuando el trabajador queda inhabilitado por completo para **toda pro
 Es el grado máximo de incapacidad permanente. Se reconoce cuando el trabajador, además de estar incapacitado para todo trabajo, **necesita la asistencia de otra persona** para los actos más esenciales de la vida (vestirse, desplazarse, comer, etc.).
 
 - **Prestación**: pensión del 100% de la base reguladora + un **complemento destinado a remunerar a la persona que atiende al gran inválido**.
-- Este grado se analiza en profundidad en nuestro artículo sobre [gran invalidez](/articulos/gran-invalidez).
+- Este grado se analiza en profundidad en nuestro artículo sobre [gran invalidez](/complementos/gran-invalidez/).
 
 ### Tabla resumen de grados y cuantías
 

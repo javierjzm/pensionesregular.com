@@ -103,7 +103,7 @@ Existen varias estrategias para minimizar las lagunas de cotización o compensar
 
 Es la herramienta más directa. El convenio especial permite cotizar voluntariamente durante periodos sin actividad laboral. Puedes elegir la base de cotización (dentro de ciertos límites) y así mantener activa tu cotización. El coste mensual depende de la base elegida y el tipo de cotización aplicable (normalmente en torno al 28,30% de la base).
 
-Para más información, consulta nuestra guía sobre el [convenio especial con la Seguridad Social](/articulos/convenio-especial-seguridad-social).
+Para más información, consulta nuestra guía sobre el [convenio especial con la Seguridad Social](/cotizacion/convenio-especial-seguridad-social/).
 
 ### Inscripción como demandante de empleo
 
