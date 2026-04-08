@@ -1,9 +1,10 @@
 ---
-title: "Lagunas de cotización: qué son y cómo afectan a tu pensión"
-description: "Descubre qué son las lagunas de cotización, cómo las integra la Seguridad Social en el cálculo de tu pensión y cómo minimizar su impacto."
+title: "Lagunas de cotización: qué son, ejemplos y cómo evitarlas"
+description: "¿Meses sin cotizar? Las lagunas de cotización reducen tu pensión. Cómo las integra la Seguridad Social y cómo cubrirlas."
 category: cotizacion
-keywords: ["lagunas cotización", "lagunas de cotización pensión", "integración lagunas", "meses sin cotizar"]
+keywords: ["lagunas cotización", "lagunas de cotización pensión", "lagunas de cotización ejemplos", "integración lagunas", "meses sin cotizar", "cómo evitar lagunas cotización"]
 datePublished: 2026-03-21
+dateModified: 2026-04-08
 relatedPosts: ["base-reguladora-jubilacion", "convenio-especial-seguridad-social", "periodos-cotizacion"]
 schema: faq
 faqs:
@@ -11,13 +12,15 @@ faqs:
     a: "Los meses sin cotización dentro del periodo de cálculo de la base reguladora se integran con la base mínima de cotización. Esto reduce la base reguladora y, por tanto, la pensión."
   - q: "¿Puedo cubrir las lagunas de cotización?"
     a: "Sí. La principal opción es suscribir un convenio especial con la Seguridad Social, que te permite cotizar voluntariamente durante los periodos sin actividad laboral."
+  - q: "¿Cómo puedo saber si tengo lagunas de cotización?"
+    a: "Solicita tu informe de vida laboral en Import@ss (sede electrónica de la Seguridad Social). Los intervalos sin cobertura entre periodos de alta revelan tus lagunas de cotización."
 ---
 
 ## Qué son las lagunas de cotización
 
 Las lagunas de cotización son los periodos dentro de la vida laboral de un trabajador en los que no se han realizado aportaciones a la Seguridad Social. Estos huecos se producen cuando el trabajador no está en situación de alta ni en ninguna de las situaciones asimiladas al alta que la ley reconoce como periodo cotizado.
 
-Aunque tener lagunas no impide acceder a una pensión contributiva (siempre que se cumpla el periodo mínimo de cotización exigido), sí tienen un impacto directo y negativo en la cuantía de la prestación. Esto se debe a que, al calcular la base reguladora de la pensión, los meses sin cotización deben rellenarse con valores inferiores a los que habrías acumulado trabajando.
+Aunque tener lagunas no impide acceder a una pensión contributiva (siempre que se cumpla el [periodo mínimo de cotización exigido](/cotizacion/anos-cotizados-pension/)), sí tienen un impacto directo y negativo en la cuantía de la prestación. Esto se debe a que, al calcular la base reguladora de la pensión, los meses sin cotización deben rellenarse con valores inferiores a los que habrías acumulado trabajando.
 
 La regulación de las lagunas de cotización y su integración se encuentra en el artículo 209 del Texto Refundido de la Ley General de la Seguridad Social (TRLGSS), modificado por la Ley 21/2021 de garantía del poder adquisitivo de las pensiones.
 
@@ -47,11 +50,11 @@ Cualquier periodo de trabajo en la economía sumergida supone, a efectos de la S
 
 ## Cómo se integran las lagunas en el cálculo de la pensión
 
-Cuando la Seguridad Social calcula la base reguladora de la pensión de jubilación, toma las bases de cotización de los últimos 25 años (300 meses). Si dentro de ese periodo hay meses sin cotización, es necesario integrar esos huecos con un valor concreto. La regla de integración vigente desde la reforma de 2021 es la siguiente:
+Cuando la Seguridad Social calcula la [base reguladora de la pensión de jubilación](/jubilacion/base-reguladora-jubilacion/), toma las bases de cotización de los últimos 25 años (300 meses). Si dentro de ese periodo hay meses sin cotización, es necesario integrar esos huecos con un valor concreto. La regla de integración vigente desde la reforma de 2021 es la siguiente:
 
 ### Regla de integración de lagunas
 
-1. **Las primeras 48 mensualidades sin cotización** se integran con el **100% de la base mínima de cotización** vigente en cada momento.
+1. **Las primeras 48 mensualidades sin cotización** se integran con el **100% de la [base mínima de cotización](/cotizacion/bases-cotizacion/)** vigente en cada momento.
 2. **El resto de mensualidades sin cotización** (a partir de la mensualidad 49) se integran con el **50% de la base mínima de cotización**.
 
 Esta regla supone una mejora respecto a la normativa anterior, que integraba todas las lagunas al 100% de la base mínima sin distinguir tramos. La reforma de 2021 introdujo el tramo del 50% para las lagunas más prolongadas, lo que penaliza en mayor medida las carreras con muchos años sin cotización.
@@ -142,7 +145,7 @@ Cuando un trabajador a tiempo parcial tiene lagunas de cotización, la integraci
 
 ## Cómo saber si tienes lagunas de cotización
 
-La forma más sencilla de detectar lagunas es revisar tu informe de vida laboral, disponible en la sede electrónica de la Seguridad Social (Import@ss). En este informe aparecen todos tus periodos de alta y baja, por lo que los huecos entre un periodo y otro revelan las posibles lagunas.
+La forma más sencilla de detectar lagunas es revisar tu [informe de vida laboral](/cotizacion/vida-laboral/), disponible en la sede electrónica de la Seguridad Social (Import@ss). En este informe aparecen todos tus periodos de alta y baja, por lo que los huecos entre un periodo y otro revelan las posibles lagunas.
 
 Además, puedes solicitar el **informe de bases de cotización**, que muestra mes a mes las bases por las que has cotizado. Los meses sin base registrada son las lagunas.
 
@@ -161,7 +164,7 @@ Si detectas periodos que no aparecen y que deberían constar como cotizados, pre
 La mejor estrategia frente a las lagunas de cotización es la prevención. Si prevés un periodo sin actividad laboral, valora las siguientes opciones antes de que se produzca:
 
 - **Solicita el convenio especial en los 90 días siguientes al cese** en tu último empleo, ya que es el plazo ordinario para hacerlo.
-- **Calcula el coste-beneficio**: compara el coste del convenio especial con el incremento de pensión que obtendrás.
+- **Calcula el coste-beneficio**: compara el coste del convenio especial con el [incremento de pensión](/jubilacion/pension-maxima-minima/) que obtendrás.
 - **Consulta con un profesional**: un asesor especializado en Seguridad Social puede ayudarte a tomar la mejor decisión según tu situación particular.
 
 Cada caso es distinto, pero en general, cuanto más cerca estés de la jubilación, más impacto tienen las lagunas y más rentable resulta cubrirlas con un convenio especial.

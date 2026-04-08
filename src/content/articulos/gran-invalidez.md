@@ -1,11 +1,19 @@
 ---
-title: "Gran invalidez: qué es, requisitos y prestaciones"
-description: "Entiende qué es la gran invalidez, cómo se diferencia de otros grados de incapacidad y qué prestaciones incluye el complemento por tercera persona."
+title: "Gran invalidez: requisitos, cuantía y complemento en 2026"
+description: "Qué es la gran invalidez, requisitos para solicitarla, cuantía de la pensión y complemento por tercera persona. Guía 2026."
 category: complementos
-keywords: ["gran invalidez", "complemento tercera persona", "incapacidad gran invalidez"]
+keywords: ["gran invalidez", "gran invalidez requisitos", "gran invalidez seguridad social", "complemento tercera persona", "incapacidad gran invalidez", "solicitar gran invalidez", "pensión gran invalidez"]
 datePublished: 2026-04-01
+dateModified: 2026-04-08
 relatedPosts: ["incapacidad-permanente", "complemento-minimos", "pension-no-contributiva"]
-schema: article
+schema: faq
+faqs:
+  - q: "¿Qué cuantía tiene la pensión por gran invalidez?"
+    a: "La gran invalidez incluye la pensión del 100% de la base reguladora más un complemento del 45% de la base mínima de cotización y el 30% de la última base de cotización del trabajador, destinado a remunerar a la persona que asiste al beneficiario."
+  - q: "¿Cuáles son los requisitos para solicitar la gran invalidez?"
+    a: "Debes estar afiliado y en alta (o situación asimilada), necesitar la asistencia de otra persona para actos esenciales de la vida, y cumplir los requisitos de cotización que varían según la edad."
+  - q: "¿Se puede pasar de incapacidad permanente absoluta a gran invalidez?"
+    a: "Sí, es posible solicitar una revisión de grado si la situación empeora y se acredita la necesidad de asistencia de tercera persona para los actos más esenciales de la vida."
 ---
 
 ## Qué es la gran invalidez
@@ -41,7 +49,7 @@ Los requisitos generales son los mismos que para cualquier grado de incapacidad 
 
 ### Periodo de cotización
 
-- **Enfermedad común**: mismos periodos que para la incapacidad permanente en general (un tercio del tiempo entre los 20 años y el hecho causante para mayores de 31 años, con mínimo de 5 años; un tercio del tiempo entre los 16 años y el hecho causante para menores de 31 años, con mínimo de 1.800 días).
+- **Enfermedad común**: mismos [periodos de cotización](/cotizacion/periodos-cotizacion/) que para la incapacidad permanente en general (un tercio del tiempo entre los 20 años y el hecho causante para mayores de 31 años, con mínimo de 5 años; un tercio del tiempo entre los 16 años y el hecho causante para menores de 31 años, con mínimo de 1.800 días).
 - **Accidente no laboral**: no se exige periodo de cotización previo.
 - **Accidente de trabajo o enfermedad profesional**: no se exige periodo de cotización previo.
 
@@ -60,7 +68,7 @@ Esta doble condición es la que distingue la gran invalidez de los demás grados
 
 La pensión base equivale al **100% de la base reguladora**, calculada de la misma forma que la incapacidad permanente absoluta según la causa del hecho causante:
 
-- **Enfermedad común**: media de las bases de cotización de un periodo que depende de la edad del beneficiario.
+- **Enfermedad común**: media de las [bases de cotización](/cotizacion/bases-cotizacion/) de un periodo que depende de la edad del beneficiario.
 - **Accidente no laboral**: bases de 24 meses consecutivos dentro de los 7 años anteriores, divididas entre 28.
 - **Accidente de trabajo o enfermedad profesional**: retribuciones reales del último año.
 
@@ -102,6 +110,8 @@ Diversas sentencias han reconocido que la gran invalidez es compatible con la re
 Esta doctrina se basa en el principio de que la gran invalidez se define por la necesidad de asistencia para actos esenciales de la vida, no por la imposibilidad absoluta de realizar cualquier tarea remunerada. Por ejemplo, una persona ciega puede realizar trabajos de telefonía o informática con herramientas adaptadas sin que ello suponga una mejora de su situación funcional.
 
 No obstante, si el INSS detecta que el beneficiario realiza una actividad que demuestra una mejora sustancial de su estado, puede iniciar un procedimiento de **revisión del grado** de incapacidad.
+
+Si estás valorando la jubilación en lugar de solicitar la gran invalidez, consulta los [requisitos para la pensión de jubilación](/jubilacion/pension-jubilacion-requisitos/) y la [cuantía de la pensión máxima y mínima](/jubilacion/pension-maxima-minima/).
 
 ## Revisión del grado
 
@@ -150,6 +160,8 @@ Si la cuantía calculada (pensión + complemento) no alcanza el mínimo legal, s
 | Con cónyuge a cargo | 1.485 euros |
 | Sin cónyuge (unidad unipersonal) | 1.205 euros |
 | Con cónyuge no a cargo | 1.143 euros |
+
+Estas cuantías mínimas se actualizan anualmente. Para consultar la evolución de las pensiones mínimas en general, visita nuestra guía sobre [pensión máxima y mínima](/jubilacion/pension-maxima-minima/).
 
 ## Fuentes y normativa de referencia
 

@@ -1,9 +1,10 @@
 ---
-title: "Jubilación anticipada: tipos, requisitos y coeficientes reductores"
-description: "Guía completa sobre la jubilación anticipada en España: voluntaria e involuntaria, requisitos, penalizaciones y coeficientes reductores."
+title: "Jubilación anticipada 2026: requisitos, penalización y cuánto se pierde"
+description: "¿Cuánto pierdes por jubilarte antes? Requisitos, coeficientes reductores y diferencias entre anticipada voluntaria e involuntaria."
 category: jubilacion
-keywords: ["jubilación anticipada", "jubilación anticipada voluntaria", "coeficientes reductores", "penalización jubilación"]
+keywords: ["jubilación anticipada", "jubilación anticipada voluntaria", "jubilación anticipada involuntaria", "coeficientes reductores jubilación", "penalización jubilación anticipada", "requisitos jubilación anticipada"]
 datePublished: 2026-03-18
+dateModified: 2026-04-08
 relatedPosts: ["pension-jubilacion-requisitos", "calcular-pension-jubilacion", "anos-cotizados-pension"]
 schema: faq
 faqs:
@@ -15,7 +16,7 @@ faqs:
 
 ## Qué es la jubilación anticipada
 
-La jubilación anticipada permite a un trabajador acceder a la pensión de jubilación antes de alcanzar la edad ordinaria legalmente establecida. A cambio de ese adelanto, se aplican unos coeficientes reductores que disminuyen de forma permanente la cuantía de la pensión.
+La jubilación anticipada permite a un trabajador acceder a la [pensión de jubilación](/jubilacion/pension-jubilacion-requisitos/) antes de alcanzar la edad ordinaria legalmente establecida. A cambio de ese adelanto, se aplican unos coeficientes reductores que disminuyen de forma permanente la cuantía de la pensión.
 
 Esta modalidad está regulada en los artículos 207 y 208 del texto refundido de la Ley General de la Seguridad Social (Real Decreto Legislativo 8/2015), con las modificaciones introducidas por la Ley 21/2021, de 28 de diciembre, de garantía del poder adquisitivo de las pensiones. Existen dos tipos claramente diferenciados: la jubilación anticipada voluntaria y la jubilación anticipada por causa no imputable al trabajador (involuntaria).
 
@@ -28,8 +29,8 @@ La jubilación anticipada voluntaria es aquella en la que el trabajador decide, 
 Para acceder a la jubilación anticipada voluntaria se deben cumplir todas las condiciones siguientes:
 
 - **Edad mínima**: tener como máximo **2 años menos** que la edad ordinaria de jubilación que corresponda según los años cotizados. En 2026, esto significa que un trabajador podría jubilarse desde los 63 años (si su edad ordinaria es 65) o desde los 64 años y 8 meses (si su edad ordinaria es 66 años y 8 meses).
-- **Periodo de cotización**: acreditar al menos **35 años de cotización efectiva**, sin que se computen las pagas extras ni la parte proporcional de las mismas. Se descuentan de este cómputo los periodos de prestación del servicio militar o la prestación social sustitutoria, con un máximo de un año.
-- **Cuantía mínima**: el importe de la pensión resultante, una vez aplicados los coeficientes reductores, debe ser **superior a la cuantía de la pensión mínima** que correspondería al interesado a los 65 años. Si no se cumple este requisito, no se puede acceder a esta modalidad.
+- **Periodo de cotización**: acreditar al menos **[35 años de cotización efectiva](/cotizacion/anos-cotizados-pension/)**, sin que se computen las pagas extras ni la parte proporcional de las mismas. Se descuentan de este cómputo los periodos de prestación del servicio militar o la prestación social sustitutoria, con un máximo de un año.
+- **Cuantía mínima**: el importe de la pensión resultante, una vez aplicados los coeficientes reductores, debe ser **superior a la cuantía de la [pensión mínima](/jubilacion/pension-maxima-minima/)** que correspondería al interesado a los 65 años. Si no se cumple este requisito, no se puede acceder a esta modalidad.
 - **Estar en alta** o en situación asimilada al alta en la Seguridad Social.
 
 ### Coeficientes reductores de la jubilación voluntaria
@@ -86,6 +87,8 @@ Veamos otro caso: un trabajador de 64 años con 37 años cotizados que es desped
 
 Esta reducción es **permanente y vitalicia**: la pensión no se incrementa al cumplir la edad ordinaria de jubilación. Solo le afectarán las revalorizaciones anuales que correspondan a todas las pensiones.
 
+Para entender cómo se calcula la pensión antes de aplicar estos coeficientes, consulta nuestra guía sobre la [base reguladora de la jubilación](/jubilacion/base-reguladora-jubilacion/).
+
 ## Jubilación anticipada por actividad profesional
 
 Además de las modalidades voluntaria e involuntaria, existe la posibilidad de jubilarse antes de la edad ordinaria para determinadas profesiones cuyas actividades son penosas, tóxicas, peligrosas o insalubres, y presentan índices elevados de morbilidad o mortalidad.
@@ -114,6 +117,6 @@ El procedimiento es similar al de la jubilación ordinaria:
 3. **Presentar la solicitud** en la oficina del INSS o por vía telemática a través de la Sede Electrónica de la Seguridad Social con certificado digital o Cl@ve.
 4. **Esperar la resolución** del INSS, que dispone de 90 días para resolver.
 
-Es fundamental solicitar previamente un **informe de vida laboral** actualizado y, si es posible, un **informe de bases de cotización** para estimar la cuantía de la pensión y valorar si resulta conveniente adelantar la jubilación o esperar a la edad ordinaria.
+Es fundamental solicitar previamente un **[informe de vida laboral](/cotizacion/vida-laboral/)** actualizado y, si es posible, un **[informe de bases de cotización](/cotizacion/bases-cotizacion/)** para estimar la cuantía de la pensión y valorar si resulta conveniente adelantar la jubilación o esperar a la edad ordinaria.
 
 El INSS ofrece un servicio de simulación en su portal "Tu Seguridad Social" (portal.seg-social.gob.es) que permite obtener una estimación orientativa de la pensión según diferentes escenarios de jubilación.

@@ -1,9 +1,10 @@
 ---
-title: "¿Cuántos años hay que cotizar para cobrar una pensión?"
-description: "Descubre cuántos años de cotización necesitas para acceder a una pensión de jubilación en España y cómo afectan a la cuantía que recibirás."
+title: "¿Cuántos años hay que cotizar para la jubilación en 2026?"
+description: "Mínimo 15 años para cobrar pensión, 36 años y medio para el 100%. Cuántos años necesitas cotizar y cómo afecta a tu cuantía."
 category: cotizacion
-keywords: ["años cotizados pensión", "mínimo cotización jubilación", "15 años cotizados", "años cotizar pensión completa"]
+keywords: ["años cotizados pensión", "cuántos años cotizar jubilación", "mínimo cotización jubilación", "15 años cotizados", "años cotizar pensión completa", "años cotizados para jubilarse"]
 datePublished: 2026-03-30
+dateModified: 2026-04-08
 relatedPosts: ["pension-jubilacion-requisitos", "periodos-cotizacion", "calcular-pension-jubilacion"]
 schema: faq
 faqs:
@@ -30,7 +31,7 @@ Un trabajador que cotizó 13 años hace tres décadas y solo 1 año en los últi
 Si no alcanzas los 15 años de cotización, no tendrás derecho a pensión de jubilación contributiva. Tus opciones serían:
 
 - **Seguir cotizando** hasta completar los 15 años (mediante empleo o convenio especial).
-- **Pensión no contributiva de jubilación**: si cumples los requisitos de edad (65 años), residencia en España (al menos 10 años entre los 16 y la edad de jubilación, 2 de ellos consecutivos antes de la solicitud) y falta de ingresos suficientes.
+- **[Pensión no contributiva de jubilación](/complementos/pension-no-contributiva/)**: si cumples los requisitos de edad (65 años), residencia en España (al menos 10 años entre los 16 y la edad de jubilación, 2 de ellos consecutivos antes de la solicitud) y falta de ingresos suficientes.
 
 ## Tabla de porcentajes por años cotizados
 
@@ -68,7 +69,7 @@ Una vez que cumples los 15 años mínimos, el porcentaje de la base reguladora q
 
 ### Cómo se aplica la escala
 
-- **Primeros 15 años**: generan el derecho al 50% de la base reguladora.
+- **Primeros 15 años**: generan el derecho al 50% de la [base reguladora](/jubilacion/base-reguladora-jubilacion/).
 - **Del año 16 al 25**: cada mes adicional cotizado incrementa el porcentaje en un 0,248% (aproximadamente un 2,98% por año completo).
 - **Del año 26 en adelante**: cada mes adicional cotizado incrementa un porcentaje menor (en torno al 0,088% mensual) hasta alcanzar el 100%.
 
@@ -109,13 +110,15 @@ Para entender el impacto real, veamos un ejemplo con una base reguladora de 1.60
 
 La diferencia entre jubilarse con 15 años cotizados y con 36 años y 6 meses es de **800 euros mensuales**, lo que supone **11.200 euros anuales**. A lo largo de 20 años de jubilación, la diferencia acumulada es de **224.000 euros**.
 
+Estas cuantías están sujetas al [tope de pensión máxima y al suelo de pensión mínima](/jubilacion/pension-maxima-minima/) vigentes cada año.
+
 ## Cómo completar los años que te faltan
 
 Si te acercas a la edad de jubilación y no tienes suficientes años cotizados, existen varias vías para completar tu carrera:
 
 ### Convenio especial
 
-La opción más directa. Puedes suscribir un convenio especial con la Seguridad Social para cotizar voluntariamente durante periodos sin empleo. El coste depende de la base elegida, y las cuotas se pagan mensualmente. Es especialmente recomendable cuando faltan pocos años para alcanzar un umbral relevante (15 años para acceder a la pensión, o los años necesarios para el 100%).
+La opción más directa. Puedes suscribir un [convenio especial con la Seguridad Social](/cotizacion/convenio-especial-seguridad-social/) para cotizar voluntariamente durante periodos sin empleo. El coste depende de la base elegida, y las cuotas se pagan mensualmente. Es especialmente recomendable cuando faltan pocos años para alcanzar un umbral relevante (15 años para acceder a la pensión, o los años necesarios para el 100%).
 
 ### Empleo, aunque sea parcial
 
@@ -133,6 +136,8 @@ Ciertos periodos protegidos computan como cotizados:
 ### Jubilación demorada
 
 Si has llegado a la edad ordinaria de jubilación pero no tienes suficientes años, puedes seguir trabajando y cotizando. No hay obligación de jubilarse a los 65 o 67 años. Cada año adicional que trabajes genera más cotización y además puede beneficiarte de los incentivos por jubilación demorada.
+
+Si en lugar de demorar prefieres adelantar tu jubilación, ten en cuenta los requisitos y penalizaciones de la [jubilación anticipada](/jubilacion/jubilacion-anticipada/).
 
 ## Periodos que cuentan como cotizados sin haber trabajado
 
@@ -177,7 +182,7 @@ La pensión no contributiva se fija anualmente en los Presupuestos Generales del
 
 La gestión de los años de cotización debe planificarse con antelación. Algunos consejos:
 
-- **Revisa tu vida laboral** periódicamente en Import@ss para saber exactamente cuántos días tienes cotizados.
+- **Revisa tu [vida laboral](/cotizacion/vida-laboral/)** periódicamente en Import@ss para saber exactamente cuántos días tienes cotizados.
 - **Identifica periodos no registrados**: servicio militar, cuidado de hijos o periodos en el extranjero que puedan computar.
 - **Valora el convenio especial** si prevés periodos largos sin empleo.
 - **Simula tu pensión** con la herramienta "Tu Seguridad Social" disponible en la sede electrónica de la Seguridad Social.

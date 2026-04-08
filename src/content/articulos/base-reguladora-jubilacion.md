@@ -1,16 +1,22 @@
 ---
-title: "Base reguladora de la pensión de jubilación: qué es y cómo se calcula"
-description: "Entiende qué es la base reguladora de la jubilación, cómo se calcula con las últimas bases de cotización y qué factores la afectan."
+title: "Base reguladora jubilación: cómo se calcula paso a paso (2026)"
+description: "Cómo calcular tu base reguladora de jubilación paso a paso: fórmula, bases de cotización y periodo de cálculo en 2026."
 category: jubilacion
-keywords: ["base reguladora", "base reguladora jubilación", "bases cotización pensión"]
+keywords: ["base reguladora", "base reguladora jubilación", "cómo se calcula base reguladora", "base reguladora pensión jubilación", "bases cotización pensión", "fórmula base reguladora"]
 datePublished: 2026-03-25
+dateModified: 2026-04-08
 relatedPosts: ["calcular-pension-jubilacion", "bases-cotizacion", "lagunas-cotizacion"]
-schema: article
+schema: faq
+faqs:
+  - q: "¿Qué es la base reguladora de la jubilación?"
+    a: "Es la media de tus bases de cotización de los últimos 25 años (300 meses) antes de jubilarte. Sobre esta cifra se aplica el porcentaje según tus años cotizados para calcular la pensión."
+  - q: "¿Cuál es la base reguladora de una pensión?"
+    a: "Se calcula dividiendo la suma de tus bases de cotización de los últimos 300 meses (25 años) entre 350. Las bases de los 24 meses más recientes se toman por su valor nominal y el resto se actualiza con el IPC."
 ---
 
 ## Qué es la base reguladora
 
-La base reguladora es la cifra clave en el cálculo de cualquier pensión contributiva de la Seguridad Social. Se trata del importe de referencia sobre el que se aplica el porcentaje correspondiente según los años cotizados para determinar la cuantía final de la pensión de jubilación.
+La base reguladora es la cifra clave en el cálculo de cualquier pensión contributiva de la Seguridad Social. Se trata del importe de referencia sobre el que se aplica el porcentaje correspondiente según los [años cotizados](/cotizacion/anos-cotizados-pension/) para determinar la cuantía final de la pensión de jubilación.
 
 Dicho de forma sencilla: la base reguladora representa una especie de "media ponderada" de lo que has cotizado durante los últimos años de tu vida laboral. No se corresponde directamente con tu último salario ni con la base de cotización de un mes concreto, sino que es el resultado de una fórmula que tiene en cuenta las cotizaciones de un periodo prolongado.
 
@@ -58,7 +64,7 @@ Una de las cuestiones que más preocupa a los trabajadores es cómo afectan los 
 
 ### Reglas de integración
 
-Cuando existen meses dentro del periodo de cálculo (25 años) en los que no hay bases de cotización, la Seguridad Social aplica las siguientes reglas de integración:
+Cuando existen meses dentro del periodo de cálculo (25 años) en los que no hay bases de cotización, la Seguridad Social aplica las siguientes reglas de integración (consulta nuestra guía sobre [lagunas de cotización](/cotizacion/lagunas-cotizacion/) para más detalle):
 
 - **Primeras 48 mensualidades** sin cotización: se integran con la **base mínima de cotización** vigente en cada momento para trabajadores mayores de 18 años del régimen general.
 - **A partir del mes 49** sin cotización: se integran con el **50% de la base mínima** de cotización.
@@ -73,7 +79,7 @@ Las lagunas de cotización reducen significativamente la base reguladora. Veamos
 | 22 años cotizados + 3 años de laguna (36 meses a base mínima ~1.260 euros) | 1.634 euros |
 | 20 años cotizados + 5 años de laguna (48 meses a base mínima + 12 meses al 50%) | 1.534 euros |
 
-Es por ello que resulta fundamental intentar mantener la cotización de forma continua o, en su caso, suscribir un convenio especial con la Seguridad Social durante los periodos de inactividad para evitar o minimizar las lagunas.
+Es por ello que resulta fundamental intentar mantener la cotización de forma continua o, en su caso, suscribir un [convenio especial con la Seguridad Social](/cotizacion/convenio-especial-seguridad-social/) durante los periodos de inactividad para evitar o minimizar las lagunas.
 
 ## Cómo afectan los trabajos a tiempo parcial
 
@@ -104,7 +110,7 @@ Conocer tus bases de cotización es esencial para estimar tu futura pensión. Pu
 En la dirección sede.seg-social.gob.es, accediendo con certificado digital, DNI electrónico o Cl@ve, puedes solicitar:
 
 - **Informe de bases de cotización**: detalla las bases mensuales por las que has cotizado durante toda tu carrera laboral.
-- **Informe de vida laboral**: aunque no incluye las bases, recoge todos los periodos de alta y baja, lo que te permite identificar posibles lagunas.
+- **[Informe de vida laboral](/cotizacion/vida-laboral/)**: aunque no incluye las bases, recoge todos los periodos de alta y baja, lo que te permite identificar posibles lagunas.
 
 ### Portal "Tu Seguridad Social"
 
@@ -126,5 +132,7 @@ Es habitual confundir ambos conceptos, pero son diferentes:
 La base de cotización de un mes concreto no determina por sí sola la pensión. Es la combinación de todas las bases de cotización del periodo de cálculo, una vez actualizadas y ponderadas, la que da lugar a la base reguladora.
 
 Otro punto de confusión frecuente es la diferencia entre la base de cotización y el salario neto. La base de cotización incluye el salario bruto más las pagas extraordinarias prorrateadas y otros conceptos salariales, y está sujeta a unos topes mínimo y máximo que fija cada año el Gobierno. En 2026, la base máxima de cotización del régimen general se sitúa en torno a los **4.720 euros mensuales**, lo que establece un techo a las cotizaciones y, en consecuencia, a la futura pensión.
+
+Consulta las [cuantías de la pensión máxima y mínima actualizadas](/jubilacion/pension-maxima-minima/) para saber cuál es el tope de pensión que puedes cobrar.
 
 Toda esta información está disponible de forma oficial en el portal de la Seguridad Social (seg-social.es), en las publicaciones del BOE relativas a las bases y tipos de cotización, y en la normativa vigente de la LGSS.
