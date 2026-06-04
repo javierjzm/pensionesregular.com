@@ -2,6 +2,8 @@
 title: "Jubilación activa para autónomos en 2026: cobrar el 100% y seguir facturando"
 description: "Jubilación activa para autónomos: requisitos 2026, contratar un empleado, cuota RETA y cuánto puedes cobrar de pensión y facturación."
 category: jubilacion
+coverImage: "/images/covers/articles/jubilacion-activa-autonomos.jpg"
+imageAlt: "Autónomo jubilado que sigue trabajando con pensión de jubilación activa"
 keywords:
   - jubilacion activa autonomos
   - jubilacion activa requisitos 2026

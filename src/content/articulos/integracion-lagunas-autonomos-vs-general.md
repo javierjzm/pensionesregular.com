@@ -2,6 +2,8 @@
 title: "Integración de lagunas: por qué los autónomos no la tienen y cuánto pierden"
 description: "Los autónomos no tienen integración de lagunas como el régimen general. Ejemplo numérico de cuánto baja la pensión y alternativas (convenio especial)."
 category: cotizacion
+coverImage: "/images/covers/articles/integracion-lagunas-autonomos-vs-general.jpg"
+imageAlt: "Lagunas de cotización de autónomos frente al régimen general de la Seguridad Social"
 keywords:
   - integracion lagunas autonomos
   - lagunas cotizacion autonomos

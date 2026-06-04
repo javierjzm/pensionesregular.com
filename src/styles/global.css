@@ -502,6 +502,35 @@ a:hover {
   letter-spacing: -0.02em;
 }
 
+.article-cover {
+  margin: 0 0 1.35rem;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.article-cover img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1200 / 630;
+  object-fit: cover;
+  display: block;
+}
+
+.article-card__media {
+  margin: -1rem -1.15rem 0.85rem;
+  overflow: hidden;
+}
+
+.article-card__media img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
 .article-meta {
   font-size: 0.85rem;
   color: var(--muted);

@@ -16,6 +16,8 @@ const articulos = defineCollection({
     relatedPosts: z.array(z.string()).default([]),
     schema: z.enum(['article', 'faq', 'howto']).default('article'),
     faqs: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
+    coverImage: z.string().optional(),
+    imageAlt: z.string().max(180).optional(),
   }),
 });
 

@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import AdSlot from '../components/AdSlot.astro';
 import { getCollection } from 'astro:content';
+import { resolveArticleCover } from '../utils/covers';
 
 const allArticles = await getCollection('articulos');
 const recentArticles = allArticles
@@ -69,6 +70,16 @@ const categoryLabel: Record<string, string> = {
         <div class="articles-grid">
           {recentArticles.map((a) => (
             <a href={`/${a.data.category}/${a.slug}/`} class="article-card">
+              <div class="article-card__media">
+                <img
+                  src={resolveArticleCover(a.data.category, a.data.coverImage)}
+                  alt=""
+                  width="400"
+                  height="225"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
               <p class="card-date">
                 {formatDate(a.data.datePublished)}
                 <span aria-hidden="true"> · </span>

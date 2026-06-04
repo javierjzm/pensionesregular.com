@@ -27,6 +27,8 @@ const { Content, headings } = await article.render();
   relatedSlugs={article.data.relatedPosts}
   schema={article.data.schema}
   faqs={article.data.faqs ?? []}
+  coverImage={article.data.coverImage}
+  imageAlt={article.data.imageAlt}
 >
   <Content />
 </Article>

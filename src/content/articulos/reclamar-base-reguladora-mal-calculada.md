@@ -2,6 +2,8 @@
 title: "Cómo reclamar al INSS una base reguladora o pensión mal calculada"
 description: "Reclamación previa al INSS por pensión mal calculada: plazos de 30 días, documentación, vía judicial y ejemplo de base reguladora errónea."
 category: jubilacion
+coverImage: "/images/covers/articles/reclamar-base-reguladora-mal-calculada.jpg"
+imageAlt: "Reclamación al INSS por pensión o base reguladora mal calculada"
 keywords:
   - reclamar pension inss
   - base reguladora mal calculada

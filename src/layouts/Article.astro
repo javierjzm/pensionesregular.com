@@ -5,6 +5,7 @@ import AdSlot from '../components/AdSlot.astro';
 import RelatedPosts from '../components/RelatedPosts.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import { getCollection } from 'astro:content';
+import { absoluteCoverUrl, resolveArticleCover } from '../utils/covers';
 
 interface Props {
   title: string;
@@ -17,6 +18,8 @@ interface Props {
   relatedSlugs?: string[];
   schema?: 'article' | 'faq' | 'howto';
   faqs?: { q: string; a: string }[];
+  coverImage?: string | null;
+  imageAlt?: string | null;
 }
 
 const {
@@ -30,6 +33,8 @@ const {
   relatedSlugs = [],
   schema = 'article',
   faqs = [],
+  coverImage,
+  imageAlt,
 } = Astro.props;
 
 const categoryNames: Record<string, string> = {
@@ -59,6 +64,11 @@ const relatedPosts = relatedSlugs
   }));
 
 const SITE_ORIGIN = 'https://pensionesregular.com';
+const siteBase = Astro.site?.href ?? `${SITE_ORIGIN}/`;
+const coverPath = resolveArticleCover(category, coverImage ?? undefined);
+const coverAlt =
+  (imageAlt && String(imageAlt).trim()) || `Ilustración del artículo: ${title}`;
+const coverAbsolute = absoluteCoverUrl(siteBase, coverPath);
 
 const articleSchema = {
   '@context': 'https://schema.org',
@@ -67,9 +77,7 @@ const articleSchema = {
   description,
   image: {
     '@type': 'ImageObject',
-    url: `${SITE_ORIGIN}/favicon.svg`,
-    width: 512,
-    height: 512,
+    url: coverAbsolute,
   },
   author: {
     '@type': 'Person',
@@ -124,7 +132,7 @@ const howtoSchema = schema === 'howto' && howtoHeadings.length > 0 ? {
 } : null;
 ---
 
-<Base title={`${title} | Pensiones Regular`} description={description}>
+<Base title={`${title} | Pensiones Regular`} description={description} ogImage={coverPath}>
   <div class="article-layout">
     <div class="article-main">
       <Breadcrumb items={breadcrumbItems} />
@@ -132,6 +140,18 @@ const howtoSchema = schema === 'howto' && howtoHeadings.length > 0 ? {
       <AdSlot slot="top-banner" size="banner" />
 
       <h1 class="article-title">{title}</h1>
+
+      <figure class="article-cover">
+        <img
+          src={coverPath}
+          alt={coverAlt}
+          width="1200"
+          height="630"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </figure>
 
       <div class="article-meta">
         <span>Publicado: <time datetime={pubDate}>{pubDate}</time></span>

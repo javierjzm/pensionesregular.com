@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
+import { resolveArticleCover } from '../../utils/covers';
 
 const articles = (await getCollection('articulos'))
   .filter((a) => a.data.category === 'complementos')
@@ -23,6 +24,16 @@ const formatDate = (date: Date) =>
     <div class="articles-grid">
       {articles.map((a) => (
         <a href={`/complementos/${a.slug}/`} class="article-card">
+          <div class="article-card__media">
+            <img
+              src={resolveArticleCover(a.data.category, a.data.coverImage)}
+              alt=""
+              width="400"
+              height="225"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
           <h3>{a.data.title}</h3>
           <p class="card-description">{a.data.description}</p>
           <span class="card-date">{formatDate(a.data.datePublished)}</span>
