@@ -4,7 +4,12 @@ description: "Guía sobre la pensión de jubilación para trabajadores autónomo
 category: jubilacion
 keywords: ["jubilación autónomos", "pensión autónomos", "cotización autónomos pensión"]
 datePublished: 2026-04-02
-relatedPosts: ["pension-jubilacion-requisitos", "cotizacion-autonomos", "calcular-pension-jubilacion"]
+relatedPosts:
+  - pension-jubilacion-requisitos
+  - cotizacion-autonomos
+  - calcular-pension-jubilacion
+  - jubilacion-activa-autonomos
+  - integracion-lagunas-autonomos-vs-general
 schema: faq
 faqs:
   - q: "¿Los autónomos cobran menos pensión que los asalariados?"
@@ -30,7 +35,7 @@ Los requisitos para acceder a la pensión de jubilación son, en esencia, los mi
 - **Edad ordinaria de jubilación**: 65 años (con 38 años y 3 meses o más cotizados) o 66 años y 8 meses (con menos de 38 años y 3 meses) en 2026.
 - **Periodo mínimo de cotización**: 15 años, de los cuales al menos 2 deben estar dentro de los 15 inmediatamente anteriores a la jubilación.
 - **Estar al corriente de pago**: el autónomo debe estar al corriente en el pago de sus cuotas a la Seguridad Social. Si tiene deudas pendientes, la Tesorería General le requiere el pago antes de tramitar la jubilación. Existe un mecanismo de "invitación al pago" que permite regularizar la situación.
-- **Cese en la actividad o jubilación activa**: con carácter general, el autónomo debe cesar en su actividad (darse de baja en el RETA). No obstante, puede optar por la jubilación activa si cumple determinados requisitos.
+- **Cese en la actividad o jubilación activa**: con carácter general, el autónomo debe cesar en su actividad (darse de baja en el RETA). No obstante, puede optar por la [jubilación activa](/jubilacion/jubilacion-activa-autonomos/) si cumple determinados requisitos (contratar un empleado o tarifa plana de jubilado activo).
 
 ### Matices específicos del RETA
 

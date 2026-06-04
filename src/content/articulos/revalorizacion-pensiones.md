@@ -4,8 +4,20 @@ description: "Entiende cómo funciona la revalorización anual de las pensiones 
 category: jubilacion
 keywords: ["revalorización pensiones", "subida pensiones", "IPC pensiones", "actualización pensiones"]
 datePublished: 2026-04-01
-relatedPosts: ["pension-maxima-minima", "pension-jubilacion-requisitos", "complemento-minimos"]
-schema: article
+dateModified: 2026-06-04
+relatedPosts:
+  - pension-maxima-minima
+  - pension-jubilacion-requisitos
+  - complemento-minimos
+  - complemento-brecha-genero
+schema: faq
+faqs:
+  - q: "¿Cuándo se publica el IPC que fija la subida de pensiones?"
+    a: "El INE publica el IPC medio interanual de noviembre a principios de diciembre. El Gobierno aprueba el Real Decreto de revalorización antes de fin de año o en enero, con efectos desde el 1 de enero."
+  - q: "¿La revalorización aplica a las 14 pagas?"
+    a: "Sí. El porcentaje se aplica a la cuantía mensual de cada paga, incluidas las pagas extraordinarias de verano y Navidad."
+  - q: "¿El complemento de brecha de género también sube?"
+    a: "Sí, se revaloriza con el mismo porcentaje que las pensiones contributivas."
 ---
 
 ## Qué es la revalorización de las pensiones
@@ -122,3 +134,71 @@ En ocho años, la pensión ha crecido un **26,1%** en términos nominales. Si la
 El debate sobre la sostenibilidad de este mecanismo es permanente, dado el envejecimiento de la población y el creciente peso del gasto en pensiones sobre el PIB. Las reformas recientes (mecanismo de equidad intergeneracional, aumento de cotizaciones para rentas altas) buscan garantizar la viabilidad financiera del sistema sin renunciar a la garantía del poder adquisitivo.
 
 La información oficial sobre revalorización se publica en el BOE y en el portal de la Seguridad Social (seg-social.es), donde también se pueden consultar las cuantías actualizadas de cada tipo de pensión.
+
+## Cómo comprobar que tu nómina aplicó bien la subida
+
+1. Localiza la **cuantía de diciembre** del año anterior (ej. pensión 1.227 € en dic. 2025).
+2. Aplica el % del RD (ej. 2,8 %): 1.227 × 1,028 = **1.261,16 €** desde enero 2026.
+3. Revisa el **abono de atrasos** si el RD se publicó en enero: (meses de retraso) × diferencia mensual.
+
+| Error habitual | Qué hacer |
+| --- | --- |
+| Cobras igual que en diciembre en marzo | Solicitar revisión en banco/INSS |
+| Subida solo en 12 pagas, no en 14 | Reclamar; debe ser en todas |
+| Pensión nueva de 2026 (primera vez) | Ya sale con cuantía revalorizada; no hay atrasos |
+
+## Revalorización y pensión máxima / mínima
+
+Las [pensiones máximas y mínimas](/jubilacion/pension-maxima-minima/) también se actualizan con el IPC. Si estás en el techo, la subida puede toparse por la cuantía máxima legal del ejercicio. Si estás en mínimo con [complemento a mínimos](/complementos/complemento-minimos/), suben el mínimo legal y, si aplica, el complemento.
+
+**Ejemplo mínimo 2026 (orden magnitud):** pensión calculada 720 € + complemento a mínimos hasta ~1.150 € (cifra según edad y dependencia) → ambos conceptos se revalorizan.
+
+## Complementos que suben con el IPC
+
+| Prestación | ¿Se revaloriza con IPC pensiones? |
+| --- | --- |
+| Pensión contributiva base | Sí |
+| [Complemento brecha de género](/complementos/complemento-brecha-genero/) | Sí |
+| Complemento a mínimos | Sí (cuantías mínimas) |
+| Prestación hijo a cargo | Cuantía en Presupuestos |
+
+## Ejemplo: pensión media + complemento brecha
+
+| Concepto | Antes RD 2,8 % | Tras 2,8 % |
+| --- | --- | --- |
+| Jubilación | 1.200 € | 1.233,60 € |
+| Brecha (2 hijos) | 66,40 € | 68,26 € |
+| **Total** | **1.266,40 €** | **1.301,86 €** |
+| Ganancia anual (14 pagas) | — | **~497 €** |
+
+## Mecanismo de equidad intergeneracional (no confundir)
+
+La Ley 21/2021 también introdujo el **mecanismo de equidad intergeneracional** (cotización extra para rentas altas). Eso **no sustituye** la revalorización por IPC: son cajas distintas del sistema. La revalorización protege poder adquisitivo; el MEG financia el sistema.
+
+## Si el IPC de noviembre es muy alto o muy bajo
+
+| IPC nov. | Efecto |
+| --- | --- |
+| >5 % (como 2022→2023) | Subida fuerte al año siguiente |
+| 0–1 % | Subida moderada |
+| Negativo | Congelación (0 %), nunca bajada nominal |
+
+Los pensionistas que entraron en 2023 con pensión «alta» mantienen ese nivel revalorizado; no vuelven atrás.
+
+## Preguntas frecuentes
+
+### ¿Las pensiones de viudedad revalorizan igual?
+
+Sí, todas las contributivas del sistema.
+
+### ¿Y la jubilación activa?
+
+La pensión reconocida se revaloriza; la cuota RETA no está ligada al IPC.
+
+### ¿Inflación posterior a noviembre?
+
+El IPC de noviembre es una «foto» de 12 meses; si la inflación sube después de noviembre, el pensionista puede perder poder adquisitivo hasta la siguiente revalorización.
+
+### ¿Dónde ver el BOE del RD?
+
+Busca en [boe.es](https://www.boe.es) «revalorización pensiones» + año; suele ser Real Decreto de diciembre.

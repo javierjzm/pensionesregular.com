@@ -5,7 +5,11 @@ category: cotizacion
 keywords: ["lagunas cotización", "lagunas de cotización pensión", "lagunas de cotización ejemplos", "integración lagunas", "meses sin cotizar", "cómo evitar lagunas cotización"]
 datePublished: 2026-03-21
 dateModified: 2026-04-08
-relatedPosts: ["base-reguladora-jubilacion", "convenio-especial-seguridad-social", "periodos-cotizacion"]
+relatedPosts:
+  - base-reguladora-jubilacion
+  - convenio-especial-seguridad-social
+  - periodos-cotizacion
+  - integracion-lagunas-autonomos-vs-general
 schema: faq
 faqs:
   - q: "¿Qué pasa si tengo meses sin cotizar?"
@@ -22,7 +26,7 @@ Las lagunas de cotización son los periodos dentro de la vida laboral de un trab
 
 Aunque tener lagunas no impide acceder a una pensión contributiva (siempre que se cumpla el [periodo mínimo de cotización exigido](/cotizacion/anos-cotizados-pension/)), sí tienen un impacto directo y negativo en la cuantía de la prestación. Esto se debe a que, al calcular la base reguladora de la pensión, los meses sin cotización deben rellenarse con valores inferiores a los que habrías acumulado trabajando.
 
-La regulación de las lagunas de cotización y su integración se encuentra en el artículo 209 del Texto Refundido de la Ley General de la Seguridad Social (TRLGSS), modificado por la Ley 21/2021 de garantía del poder adquisitivo de las pensiones.
+La regulación de las lagunas de cotización y su integración se encuentra en el artículo 209 del Texto Refundido de la Ley General de la Seguridad Social (TRLGSS), modificado por la Ley 21/2021 de garantía del poder adquisitivo de las pensiones. Los **autónomos no tienen integración de lagunas** como el régimen general: ver [integración de lagunas autónomos vs general](/cotizacion/integracion-lagunas-autonomos-vs-general/).
 
 ## Cuándo se producen las lagunas
 

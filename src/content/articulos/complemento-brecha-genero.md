@@ -4,7 +4,13 @@ description: "Qué es el complemento de brecha de género, quién puede solicita
 category: complementos
 keywords: ["complemento brecha género", "complemento por hijo pensión", "complemento maternidad pensión"]
 datePublished: 2026-03-23
-relatedPosts: ["pension-jubilacion-requisitos", "pension-viudedad", "complemento-minimos"]
+dateModified: 2026-06-04
+relatedPosts:
+  - pension-jubilacion-requisitos
+  - pension-viudedad
+  - complemento-minimos
+  - revalorizacion-pensiones
+  - jubilacion-autonomos
 schema: faq
 faqs:
   - q: "¿Quién puede solicitar el complemento de brecha de género?"
@@ -113,3 +119,62 @@ El complemento de brecha de género, aunque no elimina por completo esta diferen
 - **Texto Refundido de la Ley General de la Seguridad Social** (Real Decreto Legislativo 8/2015), artículo 60 y disposición transitoria trigésima tercera.
 - **Sentencia TJUE de 12 de diciembre de 2019** (asunto C-450/18), que motivó la reforma del complemento.
 - [Seguridad Social - Complemento de pensiones contributivas para la reducción de la brecha de género](https://www.seg-social.es).
+
+## Ejemplo numérico: ¿cambiar del complemento antiguo al nuevo?
+
+**Carmen**, pensión de jubilación causada en 2018 con **2 hijos**, pensión de 1.400 €/mes:
+
+| Complemento | Cálculo | Importe mensual extra |
+| --- | --- | --- |
+| Maternidad antiguo (10 % con 2 hijos) | 10 % × 1.400 € | **140 €** |
+| Brecha de género (2 hijos × 33,20 €) | 66,40 € fijos | **66,40 €** |
+
+Carmen **mantiene** el antiguo (más favorable). No debe solicitar el cambio.
+
+**Isabel**, pensión 900 €/mes, **3 hijos**, causada en 2022:
+
+| Complemento | Importe |
+| --- | --- |
+| Brecha género (3 × 33,20 €) | **99,60 €** |
+| Hipotético maternidad 15 % (3 hijos) | 135 € |
+
+Si hubiera causado antes de 2021 con 3 hijos, el antiguo podría ganar; con pensión baja y 1 hijo, el nuevo suele ganar desde el primer hijo.
+
+## Autónomas con hijos: por qué la pensión base es más baja
+
+Las mujeres autónomas cotizan a menudo por bases mínimas → pensión de 800–950 €. El complemento fijo de 33,20 €/hijo **no corrige la brecha estructural** (bases bajas), pero suma 132,80 € con 4 hijos (~1.860 €/año). Cruza con [jubilación autónomos](/jubilacion/jubilacion-autonomos/) y [integración de lagunas](/cotizacion/integracion-lagunas-autonomos-vs-general/).
+
+## Hombres: cuándo compensa reclamar
+
+Un hombre con pensión de viudedad de 650 € y 2 hijos puede comparar:
+
+- Sin complemento: 650 €.
+- Con brecha (2 hijos): 650 + 66,40 = **716,40 €** si supera la prueba de inferioridad respecto a mujer comparable.
+
+El INSS realiza la comparación; aporta certificados de hijos y resolución de pensión.
+
+## IRPF: ¿tributa el complemento?
+
+Sí, forma parte de la pensión contributiva sujeta a retención IRPF como rendimiento del trabajo. No tiene tratamiento exento.
+
+## Revalorización anual
+
+El complemento sube con el mismo % que las pensiones ([revalorización por IPC](/jubilacion/revalorizacion-pensiones/)). En 2026, ~33,20 €/hijo es la cifra revalorizada desde 2025.
+
+## Preguntas frecuentes adicionales
+
+### ¿Afecta a la pensión de orfandad de mis hijos?
+
+No sustituye prestaciones de hijos; es complemento de la pensión del progenitor pensionista.
+
+### ¿Hijos fallecidos computan?
+
+Consultar supuesto con INSS; en muchos casos computan si acreditas filiación.
+
+### ¿Puedo cobrarlo con jubilación activa?
+
+Sí, es compatible con [jubilación activa autónomos](/jubilacion/jubilacion-activa-autonomos/).
+
+### ¿Se pierde si me voy a vivir al extranjero?
+
+Reglas de exportación de pensiones según convenio; el complemento sigue normativa UE en muchos supuestos.

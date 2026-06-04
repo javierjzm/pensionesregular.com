@@ -5,7 +5,11 @@ category: jubilacion
 keywords: ["base reguladora", "base reguladora jubilación", "cómo se calcula base reguladora", "base reguladora pensión jubilación", "bases cotización pensión", "fórmula base reguladora"]
 datePublished: 2026-03-25
 dateModified: 2026-04-08
-relatedPosts: ["calcular-pension-jubilacion", "bases-cotizacion", "lagunas-cotizacion"]
+relatedPosts:
+  - reclamar-base-reguladora-mal-calculada
+  - calcular-pension-jubilacion
+  - bases-cotizacion
+  - lagunas-cotizacion
 schema: faq
 faqs:
   - q: "¿Qué es la base reguladora de la jubilación?"
