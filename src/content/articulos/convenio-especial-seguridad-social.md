@@ -2,6 +2,8 @@
 title: "Convenio especial con la Seguridad Social: qué es y cómo funciona"
 description: "Guía completa sobre el convenio especial: quién puede suscribirlo, cuánto cuesta, qué cubre y cuándo merece la pena para mejorar tu pensión."
 category: cotizacion
+coverImage: "/images/covers/articles/convenio-especial-seguridad-social.jpg"
+imageAlt: "Convenio especial con la Seguridad Social"
 keywords: ["convenio especial Seguridad Social", "cotizar voluntariamente", "convenio especial autónomos"]
 datePublished: 2026-03-24
 relatedPosts: ["lagunas-cotizacion", "bases-cotizacion", "anos-cotizados-pension"]

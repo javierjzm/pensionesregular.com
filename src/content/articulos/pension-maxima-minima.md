@@ -2,6 +2,8 @@
 title: "Pensión máxima y mínima 2026: cuantías mensuales en 14 pagas"
 description: "Pensión máxima en 2026: 3.267 €/mes. Pensión mínima: desde 1.033 €/mes. Consulta las cuantías actualizadas, topes y quién cobra el complemento a mínimos."
 category: jubilacion
+coverImage: "/images/covers/articles/pension-maxima-minima.jpg"
+imageAlt: "Pensión máxima y mínima de jubilación en España"
 keywords: ["pensión máxima", "pensión mínima", "pensión máxima 2026", "pensión mínima españa", "cuantía pensión jubilación", "tope máximo pensión", "complemento a mínimos", "pensión máxima españa cuantía mensual 14 pagas"]
 datePublished: 2026-03-28
 dateModified: 2026-04-08

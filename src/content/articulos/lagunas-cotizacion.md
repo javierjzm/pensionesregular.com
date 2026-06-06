@@ -2,6 +2,8 @@
 title: "Lagunas de cotización: qué son, ejemplos y cómo evitarlas"
 description: "¿Meses sin cotizar? Las lagunas de cotización reducen tu pensión. Cómo las integra la Seguridad Social y cómo cubrirlas."
 category: cotizacion
+coverImage: "/images/covers/articles/lagunas-cotizacion.jpg"
+imageAlt: "Lagunas de cotización en la vida laboral"
 keywords: ["lagunas cotización", "lagunas de cotización pensión", "lagunas de cotización ejemplos", "integración lagunas", "meses sin cotizar", "cómo evitar lagunas cotización"]
 datePublished: 2026-03-21
 dateModified: 2026-04-08

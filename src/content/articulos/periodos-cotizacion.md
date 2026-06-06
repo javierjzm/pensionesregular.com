@@ -2,6 +2,8 @@
 title: "Periodos de cotización: cómo se computan y por qué importan"
 description: "Aprende cómo se computan los periodos de cotización a la Seguridad Social, qué situaciones cuentan como cotizadas y cómo afectan a tu pensión."
 category: cotizacion
+coverImage: "/images/covers/articles/periodos-cotizacion.jpg"
+imageAlt: "Periodos de cotización computables para la pensión"
 keywords: ["periodos cotización", "años cotizados", "cómputo cotización", "situaciones asimiladas al alta"]
 datePublished: 2026-03-19
 relatedPosts: ["anos-cotizados-pension", "lagunas-cotizacion", "bases-cotizacion"]

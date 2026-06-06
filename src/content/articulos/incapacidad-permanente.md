@@ -2,6 +2,8 @@
 title: "Pensión por incapacidad permanente: grados, requisitos y cuantías"
 description: "Guía sobre la incapacidad permanente en España: grados (parcial, total, absoluta, gran invalidez), requisitos de cotización y cuantías."
 category: complementos
+coverImage: "/images/covers/articles/incapacidad-permanente.jpg"
+imageAlt: "Pensión por incapacidad permanente"
 keywords: ["incapacidad permanente", "pensión incapacidad", "grados incapacidad", "invalidez permanente"]
 datePublished: 2026-03-29
 relatedPosts: ["gran-invalidez", "complemento-minimos", "bases-cotizacion"]

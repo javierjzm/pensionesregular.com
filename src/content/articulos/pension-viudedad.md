@@ -2,6 +2,8 @@
 title: "Pensión de viudedad: requisitos, cuantía y cómo solicitarla"
 description: "Guía completa sobre la pensión de viudedad en España: quién tiene derecho, cuánto se cobra, requisitos y documentación para solicitarla."
 category: complementos
+coverImage: "/images/covers/articles/pension-viudedad.jpg"
+imageAlt: "Pensión de viudedad por fallecimiento del cónyuge"
 keywords: ["pensión viudedad", "requisitos viudedad", "cuantía viudedad", "pensión viudedad 2026"]
 datePublished: 2026-03-17
 pillar: true

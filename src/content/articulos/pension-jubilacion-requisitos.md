@@ -2,6 +2,8 @@
 title: "Pensión de jubilación en España: requisitos, edad y cuantía"
 description: "Descubre los requisitos para cobrar la pensión de jubilación en España: edad mínima, años cotizados, cuantía y cómo solicitarla."
 category: jubilacion
+coverImage: "/images/covers/articles/pension-jubilacion-requisitos.jpg"
+imageAlt: "Requisitos para la pensión de jubilación"
 keywords: ["pensión jubilación", "requisitos jubilación España", "edad jubilación", "cuantía pensión"]
 datePublished: 2026-03-15
 pillar: true

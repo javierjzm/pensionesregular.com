@@ -2,6 +2,8 @@
 title: "Gran invalidez: requisitos, cuantía y complemento en 2026"
 description: "Qué es la gran invalidez, requisitos para solicitarla, cuantía de la pensión y complemento por tercera persona. Guía 2026."
 category: complementos
+coverImage: "/images/covers/articles/gran-invalidez.jpg"
+imageAlt: "Pensión de gran invalidez y complemento"
 keywords: ["gran invalidez", "gran invalidez requisitos", "gran invalidez seguridad social", "complemento tercera persona", "incapacidad gran invalidez", "solicitar gran invalidez", "pensión gran invalidez"]
 datePublished: 2026-04-01
 dateModified: 2026-04-08

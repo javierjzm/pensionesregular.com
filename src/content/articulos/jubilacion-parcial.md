@@ -2,6 +2,8 @@
 title: "Jubilación parcial: qué es, requisitos y compatibilidad con el trabajo"
 description: "Todo sobre la jubilación parcial en España: requisitos, reducción de jornada, contrato de relevo y compatibilidad con el empleo."
 category: jubilacion
+coverImage: "/images/covers/articles/jubilacion-parcial.jpg"
+imageAlt: "Jubilación parcial compatible con el trabajo"
 keywords: ["jubilación parcial", "contrato de relevo", "reducción jornada jubilación"]
 datePublished: 2026-03-20
 relatedPosts: ["pension-jubilacion-requisitos", "jubilacion-anticipada", "cotizacion-autonomos"]

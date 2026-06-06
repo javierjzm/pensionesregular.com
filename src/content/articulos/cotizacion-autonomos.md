@@ -2,6 +2,8 @@
 title: "Cotización de autónomos: bases, cuotas y sistema por ingresos reales"
 description: "Todo sobre la cotización de autónomos en España: el nuevo sistema por ingresos reales, tramos de cuotas, bases mínimas y máximas."
 category: cotizacion
+coverImage: "/images/covers/articles/cotizacion-autonomos.jpg"
+imageAlt: "Cuota de cotización de autónomos en el RETA"
 keywords: ["cotización autónomos", "cuota autónomos", "ingresos reales autónomos", "base cotización autónomo"]
 datePublished: 2026-03-27
 relatedPosts: ["bases-cotizacion", "jubilacion-autonomos", "convenio-especial-seguridad-social"]

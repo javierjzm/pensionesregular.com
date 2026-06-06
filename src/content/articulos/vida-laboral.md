@@ -2,6 +2,8 @@
 title: "Cómo consultar tu vida laboral: guía paso a paso"
 description: "Aprende a obtener tu informe de vida laboral de la Seguridad Social: por internet, SMS o presencialmente. Verifica tus años cotizados."
 category: cotizacion
+coverImage: "/images/covers/articles/vida-laboral.jpg"
+imageAlt: "Informe de vida laboral de la Seguridad Social"
 keywords: ["vida laboral", "consultar vida laboral", "informe vida laboral", "años cotizados Seguridad Social"]
 datePublished: 2026-04-01
 relatedPosts: ["periodos-cotizacion", "anos-cotizados-pension", "bases-cotizacion"]

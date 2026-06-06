@@ -2,6 +2,8 @@
 title: "Complemento para la reducción de la brecha de género en pensiones"
 description: "Qué es el complemento de brecha de género, quién puede solicitarlo, cuánto se cobra por hijo y cómo afecta a tu pensión contributiva."
 category: complementos
+coverImage: "/images/covers/articles/complemento-brecha-genero.jpg"
+imageAlt: "Complemento por brecha de género en pensiones"
 keywords: ["complemento brecha género", "complemento por hijo pensión", "complemento maternidad pensión"]
 datePublished: 2026-03-23
 dateModified: 2026-06-04

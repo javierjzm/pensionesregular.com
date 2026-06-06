@@ -2,6 +2,8 @@
 title: "Complemento a mínimos de pensiones: requisitos y cuantías"
 description: "Entiende qué es el complemento a mínimos, quién puede recibirlo, qué requisitos de ingresos existen y cuánto aporta a tu pensión."
 category: complementos
+coverImage: "/images/covers/articles/complemento-minimos.jpg"
+imageAlt: "Complemento a mínimos de pensiones"
 keywords: ["complemento a mínimos", "pensión mínima complemento", "requisitos complemento mínimos"]
 datePublished: 2026-03-26
 relatedPosts: ["pension-maxima-minima", "pension-viudedad", "pension-no-contributiva"]

@@ -2,6 +2,8 @@
 title: "Bases de cotización a la Seguridad Social: qué son y cómo funcionan"
 description: "Entiende qué son las bases de cotización, cómo se calculan, las bases mínimas y máximas y por qué afectan directamente a tu futura pensión."
 category: cotizacion
+coverImage: "/images/covers/articles/bases-cotizacion.jpg"
+imageAlt: "Bases de cotización a la Seguridad Social"
 keywords: ["bases cotización", "base cotización Seguridad Social", "base mínima cotización", "base máxima cotización"]
 datePublished: 2026-03-16
 pillar: true

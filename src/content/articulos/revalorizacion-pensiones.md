@@ -2,6 +2,8 @@
 title: "Revalorización de pensiones: cómo y cuánto sube tu pensión cada año"
 description: "Entiende cómo funciona la revalorización anual de las pensiones en España, ligada al IPC, y cuánto han subido las pensiones en los últimos años."
 category: jubilacion
+coverImage: "/images/covers/articles/revalorizacion-pensiones.jpg"
+imageAlt: "Revalorización anual de las pensiones por el IPC"
 keywords: ["revalorización pensiones", "subida pensiones", "IPC pensiones", "actualización pensiones"]
 datePublished: 2026-04-01
 dateModified: 2026-06-04

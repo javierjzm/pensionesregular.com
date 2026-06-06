@@ -2,6 +2,8 @@
 title: "Cómo calcular tu pensión de jubilación paso a paso"
 description: "Aprende a calcular la pensión de jubilación en España: base reguladora, porcentaje por años cotizados y ejemplo práctico con cifras reales."
 category: jubilacion
+coverImage: "/images/covers/articles/calcular-pension-jubilacion.jpg"
+imageAlt: "Cálculo paso a paso de la pensión de jubilación"
 keywords: ["calcular pensión jubilación", "cálculo pensión", "base reguladora pensión", "simulador pensión"]
 datePublished: 2026-03-22
 relatedPosts: ["base-reguladora-jubilacion", "pension-jubilacion-requisitos", "pension-maxima-minima"]

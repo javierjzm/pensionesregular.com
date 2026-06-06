@@ -2,6 +2,8 @@
 title: "¿Cuántos años hay que cotizar para la jubilación en 2026?"
 description: "Mínimo 15 años para cobrar pensión, 36 años y medio para el 100%. Cuántos años necesitas cotizar y cómo afecta a tu cuantía."
 category: cotizacion
+coverImage: "/images/covers/articles/anos-cotizados-pension.jpg"
+imageAlt: "Años cotizados necesarios para la jubilación"
 keywords: ["años cotizados pensión", "cuántos años cotizar jubilación", "mínimo cotización jubilación", "15 años cotizados", "años cotizar pensión completa", "años cotizados para jubilarse"]
 datePublished: 2026-03-30
 dateModified: 2026-04-08

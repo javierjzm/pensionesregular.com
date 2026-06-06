@@ -2,6 +2,8 @@
 title: "Base reguladora jubilación: cómo se calcula paso a paso (2026)"
 description: "Cómo calcular tu base reguladora de jubilación paso a paso: fórmula, bases de cotización y periodo de cálculo en 2026."
 category: jubilacion
+coverImage: "/images/covers/articles/base-reguladora-jubilacion.jpg"
+imageAlt: "Cálculo de la base reguladora de la pensión de jubilación"
 keywords: ["base reguladora", "base reguladora jubilación", "cómo se calcula base reguladora", "base reguladora pensión jubilación", "bases cotización pensión", "fórmula base reguladora"]
 datePublished: 2026-03-25
 dateModified: 2026-04-08

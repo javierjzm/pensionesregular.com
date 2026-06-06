@@ -2,6 +2,8 @@
 title: "Prestación por nacimiento y cuidado de menor: duración, requisitos y cuantía"
 description: "Guía sobre la prestación por nacimiento y cuidado de menor en España: duración de 16 semanas, requisitos, cuantía y cómo solicitarla."
 category: complementos
+coverImage: "/images/covers/articles/prestacion-nacimiento.jpg"
+imageAlt: "Prestación por nacimiento y cuidado de menor"
 keywords: ["prestación nacimiento", "baja maternidad", "baja paternidad", "permiso maternidad España"]
 datePublished: 2026-04-02
 relatedPosts: ["complemento-brecha-genero", "periodos-cotizacion", "cotizacion-autonomos"]

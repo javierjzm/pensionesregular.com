@@ -2,6 +2,8 @@
 title: "Pensión de orfandad: quién tiene derecho y cuánto se cobra"
 description: "Todo sobre la pensión de orfandad en España: beneficiarios, cuantía, límite de edad, orfandad absoluta y cómo solicitarla."
 category: complementos
+coverImage: "/images/covers/articles/pension-orfandad.jpg"
+imageAlt: "Pensión de orfandad para hijos"
 keywords: ["pensión orfandad", "orfandad absoluta", "pensión huérfanos", "cuantía orfandad"]
 datePublished: 2026-03-20
 relatedPosts: ["pension-viudedad", "complemento-minimos", "incapacidad-permanente"]

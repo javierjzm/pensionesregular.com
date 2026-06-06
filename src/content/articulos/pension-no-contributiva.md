@@ -2,6 +2,8 @@
 title: "Pensiones no contributivas: requisitos, tipos y cuantías"
 description: "Todo sobre las pensiones no contributivas en España: de jubilación y de invalidez. Requisitos, cuantías y cómo solicitarlas."
 category: complementos
+coverImage: "/images/covers/articles/pension-no-contributiva.jpg"
+imageAlt: "Pensión no contributiva de jubilación o invalidez"
 keywords: ["pensión no contributiva", "PNC jubilación", "pensión no contributiva invalidez", "requisitos PNC"]
 datePublished: 2026-03-31
 relatedPosts: ["complemento-minimos", "pension-jubilacion-requisitos", "incapacidad-permanente"]

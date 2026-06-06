@@ -2,6 +2,8 @@
 title: "Jubilación anticipada 2026: requisitos, penalización y cuánto se pierde"
 description: "¿Cuánto pierdes por jubilarte antes? Requisitos, coeficientes reductores y diferencias entre anticipada voluntaria e involuntaria."
 category: jubilacion
+coverImage: "/images/covers/articles/jubilacion-anticipada.jpg"
+imageAlt: "Jubilación anticipada y reducción de la pensión"
 keywords: ["jubilación anticipada", "jubilación anticipada voluntaria", "jubilación anticipada involuntaria", "coeficientes reductores jubilación", "penalización jubilación anticipada", "requisitos jubilación anticipada"]
 datePublished: 2026-03-18
 dateModified: 2026-04-08

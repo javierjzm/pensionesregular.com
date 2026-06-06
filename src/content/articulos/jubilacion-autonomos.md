@@ -2,6 +2,8 @@
 title: "Jubilación para autónomos: todo lo que debes saber"
 description: "Guía sobre la pensión de jubilación para trabajadores autónomos en España: cotización, base reguladora, requisitos y cómo mejorar tu pensión."
 category: jubilacion
+coverImage: "/images/covers/articles/jubilacion-autonomos.jpg"
+imageAlt: "Pensión de jubilación para trabajadores autónomos"
 keywords: ["jubilación autónomos", "pensión autónomos", "cotización autónomos pensión"]
 datePublished: 2026-04-02
 relatedPosts:
